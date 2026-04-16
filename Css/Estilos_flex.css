@@ -1,0 +1,155 @@
+*{
+	margin: opx;
+	padding: opx;
+}
+#cabecera{
+	display: flex;
+	justify-content: center;
+	width: 96%;
+	height: 150px;
+	padding: 0% 2%;
+	background-image: url("../Img/Fondo 1.png");
+}
+#cabecera>div{
+	flex: 1;
+	max-width: 960px;
+	padding-top: 45px;
+}
+@font-face{
+	font-family: "Mi fuente 1";
+	src: url("../Fonts/PermanentMarker-Regular.ttf");
+}
+@font-face{
+	font-family: "Mi fuente 2";
+	src: url("../Fonts/PressStart2P-Regular.ttf");
+}
+#cabecera h1{
+	font: 54px "Mi fuente 1",sans-serif;
+	color: #ffffff;
+}
+#menu{
+	display: flex;
+	justify-content: center;
+	width: 96%;
+	height: 50px;
+	padding: 0% 2%;
+	background-color: #FFD8E4;
+	border-top: 1 px solid #946602;
+	border-bottom: 1px solid#094660;
+}
+#menu > div{
+	flex:1 ;
+	max-width: 960 px;
+}
+#menu li{
+	display: inline-block;
+	height: 35px;
+	padding: 15px 10px 0px 10px;
+	margin-right: 5px ;
+}
+#menu li;hover{
+	background-color: #6facc8;
+}
+#menu a{
+	font: 18px "Mi fuente 1",sans-serif;
+	color: #333333;
+	text-decoration: none;
+}
+main{
+	display: flex;
+	justify-content: center;
+	width: 96%;
+	padding: 2%;
+	background-image: url("../img/fondo k.jpg");
+}
+main > div{
+	display: flex;
+	flex: 1;
+	max-width: 960px;
+}
+#principales{
+	flex: 1;
+	margin-right: 20px;
+	padding-top: 30px;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+#inf_tienda{
+	width: 280px;
+	padding: 20px;
+	background-color: #FFD8E4;
+	border-radius: 10px;
+}
+#inf_tienda h1{
+	font: 18px "Mi fuente 1";
+}
+article{
+	position: relative;
+	padding: 0px 40px 20px 40px;
+}
+article time{
+	display: block;
+	position: absolute;
+	top: -5px;
+	left: -70px;
+	width: 80px;
+	padding: 15px 5px;
+	background-color: #FFD8E4;
+	box-shadow: 3px 3px 5px rgba(100,100,100,0.7);
+	border-radius: 5px;
+}
+.numdia{
+	font: 12px "Mi fuente 1";
+	color: #333333;
+	text-align: center;
+}
+.nomdia{
+	font: 12px "Mi fuente 1";
+	color: #333333;
+	text-align: center;
+}
+article h1{
+	margin-bottom: 5px;
+	font: 30px "Mi fuente 2";
+}
+article p{
+	font: 20px "Mi fuente 1";
+}
+figure{
+	margin: 10px 0px;
+}
+figure img{
+	max-width: 98%;
+	padding: 1px;
+	border: 1px solid;
+	border-radius: 5px;
+}
+#pie{
+	display: flex;
+	justify-content: center;
+	width: 96%;
+	padding: 2%;
+	background-color: #FD75AD;
+}
+#pie > div{
+	display: flex;
+	flex: 1;
+	max-width: 960px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.secc_pie{
+	flex: 1;
+	padding: 25px;
+}
+.secc_pie h1{
+	font: bold 20px "Mi fuente 1";
+}
+.secc_pie p{
+	margin-top: 5px;
+}
+.secc_pie a{
+	font: bold 16px "Mi fuente 1";
+	color:#FD75AD;
+	text-decoration: nonew;
+}
